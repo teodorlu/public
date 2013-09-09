@@ -69,3 +69,21 @@
 // @include *
 // @execute Forward([])
 // ==/UserScript==
+
+// ==UserScript==
+// @ShortcutManager
+// @name Close the current tab
+// @namespace nw954Jtlz1eQ
+// @key q
+// @include *
+// @execute CloseTab([])
+// ==/UserScript==
+
+// ==UserScript==
+// @ShortcutManager
+// @name Duplicate the current tab
+// @namespace nw954Jtlz1eQ
+// @key w
+// @include *
+// @execute DuplicateTab([])
+// ==/UserScript==
