@@ -75,7 +75,7 @@
 // @name Close the current tab
 // @namespace nw954Jtlz1eQ
 // @key q
-// @include *
+// @include *, -*.google.com*
 // @execute CloseTab([])
 // ==/UserScript==
 
@@ -84,6 +84,6 @@
 // @name Duplicate the current tab
 // @namespace nw954Jtlz1eQ
 // @key w
-// @include *
+// @include *, -*.google.com*
 // @execute DuplicateTab([])
 // ==/UserScript==
