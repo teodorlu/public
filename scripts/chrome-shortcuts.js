@@ -3,7 +3,7 @@
 // @name Scroll up by 100 pixels
 // @namespace Y97dJUaVnOOu
 // @key k
-// @include *
+// @include *, -*.google.com*
 // @execute ScrollUp(["100"])
 // ==/UserScript==
 
@@ -12,7 +12,7 @@
 // @name Scroll down by 100 pixels
 // @namespace Y97dJUaVnOOu
 // @key j
-// @include *
+// @include *, -*.google.com*
 // @execute ScrollDown(["100"])
 // ==/UserScript==
 
@@ -21,7 +21,7 @@
 // @name Scroll left by 100 pixels
 // @namespace Y97dJUaVnOOu
 // @key h
-// @include *
+// @include *, -*.google.com*
 // @execute ScrollLeft(["100"])
 // ==/UserScript==
 
@@ -30,7 +30,7 @@
 // @name Scroll left by 100 pixel
 // @namespace Y97dJUaVnOOu
 // @key l
-// @include *
+// @include *, -*.google.com*
 // @execute ScrollRight(["100"])
 // ==/UserScript==
 
@@ -39,7 +39,7 @@
 // @name Select the left tab
 // @namespace Y97dJUaVnOOu
 // @key d
-// @include *
+// @include *, -*.google.com*
 // @execute SelectLeftTab([])
 // ==/UserScript==
 
@@ -48,7 +48,7 @@
 // @name Select the right tab
 // @namespace Y97dJUaVnOOu
 // @key f
-// @include *
+// @include *, -*.google.com*
 // @execute SelectRightTab([])
 // ==/UserScript==
 
@@ -57,7 +57,7 @@
 // @name Back
 // @namespace Y97dJUaVnOOu
 // @key e
-// @include *
+// @include *, -*.google.com*
 // @execute Back([])
 // ==/UserScript==
 
@@ -66,7 +66,7 @@
 // @name Forward
 // @namespace Y97dJUaVnOOu
 // @key r
-// @include *
+// @include *, -*.google.com*
 // @execute Forward([])
 // ==/UserScript==
 

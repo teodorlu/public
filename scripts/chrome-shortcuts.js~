@@ -36,15 +36,6 @@
 
 // ==UserScript==
 // @ShortcutManager
-// @name Select the last tab
-// @namespace Y97dJUaVnOOu
-// @key a
-// @include *
-// @execute SelectLastTab([])
-// ==/UserScript==
-
-// ==UserScript==
-// @ShortcutManager
 // @name Select the left tab
 // @namespace Y97dJUaVnOOu
 // @key d
