@@ -1,5 +1,6 @@
 close all;
 
+% a)
 data = load('leirehaug.txt');
 x = data(:, 1);
 q = data(:, 2);
@@ -11,6 +12,7 @@ L = x(end);
 By = Mr/L
 Ay = R - By
 
+% b)
 n = length(x);
 V = zeros(1,n);
 M = zeros(1,n);
@@ -25,8 +27,9 @@ for i = 1 : n-1	% Regner ut verdier for i+1. Maks: i + 1 = n --> i = n-1
 	M(i + 1) = M(i) + V(i) * dx - q_avg * dx^2/2;
 end
 
-figure('v', 'V-diagram');
-plot(x, V)
+fprintf('The maximum value of M is %.2f kNm\n', max(M));
 
-figure('v', 'M-diagram');
+figure('name', 'V-diagram');
+plot(x, V)
+figure('name', 'M-diagram');
 plot(x, M)
