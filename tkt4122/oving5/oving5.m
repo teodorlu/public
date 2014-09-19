@@ -19,7 +19,5 @@ for i = 1:length(x1s)
 end
 
 plot(x1s, Bys);
-
 [By_max, pos] = max(Bys);
-
 fprintf('Maximum reaction is at x1 = %f, where By = %f\n', x1s(pos), By_max);
